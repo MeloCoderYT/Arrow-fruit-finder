@@ -1,3 +1,5 @@
+-- code by euyogi
+
 local local_player = game.Players.LocalPlayer
 
 local notifier = local_player.PlayerGui:WaitForChild("Main"):WaitForChild("[OLD]Radar")
