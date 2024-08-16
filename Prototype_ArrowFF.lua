@@ -232,22 +232,20 @@ local function enableNotifier(fruit)
 
 			-- Fixing some names
 
-			if string.lower(fruit_name) == "magu" then
-
+			if string.lower(fruit_name) == "magma" then
 				fruit_name = "Magma"
 
-			elseif string.lower(fruit_name) == "smouke" then
-
+			elseif string.lower(fruit_name) == "smoke" then
 				fruit_name = "Smoke"
 
-			elseif string.lower(fruit_name) == "quaketest" then
-
+			elseif string.lower(fruit_name) == "quake" then
 				fruit_name = "Quake"
-
+			
+			elseif string.lower(fruit_name) == "spin" then
+				fruit_name = "IspiniEsplendi"
 			end
 
-
-
+			
 			if (lang == "pt-br") then
 
 				fruit_name = "Fruta " .. fruit_name:gsub("^%l", string.upper)
